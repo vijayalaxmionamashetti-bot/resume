@@ -50,13 +50,11 @@ ul {
 
 /* Profile Photo */
 img.resume-photo {
-    display: block;
-    margin: 0 auto 20px auto;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 4px solid #2a2a7a;
-    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50;
+    object-fit:cover
+    
 }
 
 /* Contact section */
@@ -75,4 +73,5 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
