@@ -49,7 +49,7 @@ ul {
 }
 
 /* Profile Photo */
-img.profile {
+img.resume-photo {
     display: block;
     margin: 0 auto 20px auto;
     width: 180px;
@@ -75,3 +75,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
