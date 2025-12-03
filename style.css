@@ -56,8 +56,13 @@ img.resume-photo {
     object-fit:cover
     
 }
+img.biodata-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50;
+    object-fit:cover
+}
 
-/* Contact section */
 .contact p {
     font-size: 18px;
     margin: 5px 0;
@@ -73,5 +78,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
