@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #444;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-        <a href="biodata.html">Bio-data</a>
-    </nav>
-</header>
+    <div class="container">
 
-<!-- MAIN CONTENT -->
-<div class="container">
+        <!-- PHOTO (replace the src file name with your image name) -->
+        <img src="your-photo.jpg" alt="Profile Photo" class="profile-pic">
 
-    <img src="photo.jpg" class="resume-photo"alt="profile photo">
+        <h1>Your Name</h1>
+        <p>Email: yourmail@gmail.com</p>
+        <p>Phone: 9876543210</p>
 
-    <h1>My Resume</h1>
+        <hr>
 
-    <h2>Career Objective</h2>
-    <p>To work in a challenging environment where I can learn and grow.</p>
+        <div class="section-title">Career Objective</div>
+        <p>Your objective goes here...</p>
 
-    <h2>Educational Qualification</h2>
-    <ul>
-        <li>B.E – CSE (Donbosco institute of technology)</li>
-        <li>PUC – Oxford PU College, Vijayapur</li>
-        <li>SSLC – Jawahar Navodaya Vidyalaya, Kalaburagi</li>
-    </ul>
+        <hr>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML, CSS</li>
-        <li>C Programming</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>Communication Skills</li>
-    </ul>
+        <div class="section-title">Education</div>
+        <p>B.Tech - XYZ College</p>
+        <p>12th - ABC School</p>
+        <p>10th - ABC School</p>
 
-    <h2>Strengths</h2>
-    <ul>
-        <li>Hardworking</li>
-        <li>Teamwork</li>
-        <li>Quick learning</li>
-    </ul>
+        <hr>
 
-</div>
+        <div class="section-title">Skills</div>
+        <p>HTML, CSS, Java, Python, SQL</p>
 
-<footer>
-    <p>© 2025 My Website</p>
-</footer>
+        <hr>
+
+        <div class="section-title">Hobbies</div>
+        <p>Reading, Drawing, Music</p>
+
+    </div>
 
 </body>
 </html>
-
-
-
-
-
